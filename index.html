@@ -21,132 +21,162 @@
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/fa.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
 </head>
 
-<body class="container">
-	<!-- Page Wrapper -->
-	<div id="Wrapper">
-		<div class="row justify-content-center">
-			<div class="col-6 col-md-3">
-				<figure class="figure">
-					<img class="avatar img-thumbnail" src="images/p1.jpg" alt="avatar" width="200" height="150" />
-				</figure>
+<body class="mx-auto">
+	<div class="container border border-dark wrapper">
+		<!-- Page Wrapper -->
+		<section class="m20">
+			<div class="row justify-content-between">
+				<div class="col-6 col-md-4">
+					<div class="row">
+						<h1 class="my-name ff">Sagar <br> Kunwar</h1>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 text-center">
+					<figure class="figure">
+						<img class="avatar img-thumbnail" src="images/p1.jpg" alt="avatar" width="150" height="100" />
+					</figure>
+				</div>
+				<div class="col-6 col-md-4 text-right">
+					<p class="my-contact">
+						<span>Milan Tole, Tokha Road</span><br>
+						<span><a href="tel:9860812334">9860812334</a></span><br>
+						<span><a href="mailto:contact@sagarkunwar.com.np">contact@sagarkunwar.com.np</a></span><br>
+						<span><a target="_blank" href="https://www.sagarkunwar.com.np">www.sagarkunwar.com.np</a></span><br>
+						<span><a target="_blank" href="https://www.linkedin.com/in/sagar-kunwar">www.linkedin.com/in/sagar-kunwar</a></span><br>
+					</p>
+				</div>
 			</div>
-		</div>
-		<div class="text-center">
-			<p><label>I am</label>
-				<name>Sagar Kunwar</name><br>
-				<label>IT Engineer, Web Developer</label>
-			</p>
-			<br>
-			<!-- Links -->
-			<p>
-				<a href="https://github.com/KunwarSagar" target="_blank" data-toggle="tooltip" data-placement="bottom"
-					title="Github">
-					<i class="fab fa-github-square"></i>
-				</a>&nbsp;
-				<a href="https://gitlab.com/kunwarsagarasmh9" target="_blank" data-toggle="tooltip"
-					data-placement="bottom" title="Gitlab">
-					<i class="fab fa-gitlab"></i>
-				</a>&nbsp;
-				<a href="https://www.sagarkunwar.com.np/" target="_blank" data-toggle="tooltip" data-placement="bottom"
-					title="Blog">
-					<i class="fas fa-blog"></i>
-				</a>&nbsp;
-				<a href="https://www.linkedin.com/in/sagar-kunwar" target="_blank" data-toggle="tooltip"
-					data-placement="bottom" title="LinkedIn">
-					<i class="fab fa-linkedin"></i>
-				</a>
-			</p>
-			<hr class="style">
-		</div>
-
-		<!-- Menu -->
-		<div>
-			<ul class="nav justify-content-center">
-				<li class="nav-item">
-					<a class="nav-link active" href="#" id="Skills" onclick="return false;">Skills</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" id="Projects" onclick="return false;">Projects Done</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" id="About" onclick="return false;">About</a>
-				</li>
-			</ul>
-		</div>
-		<br>
-		<div class="content">
-			<div class="Skills active text-center" id="Skills">
-				<span class="btn btn-danger tags">#HTML</span>
-				<span class="btn btn-danger tags">#CSS</span>
-				<span class="btn btn-danger tags">#JS</span><br>
-				<span class="btn btn-danger tags">#Laravel</span>
-				<span class="btn btn-danger tags">#PHP</span>
-				<span class="btn btn-danger tags">#JAVA</span>
-				<span class="btn btn-danger tags">#SpringMVC</span><br>
-				<span class="btn btn-danger tags">#MYSQL</span>
-				<span class="btn btn-danger tags">#GIT</span>
-				<span class="btn btn-danger tags">#GULP</span>
-				<span class="btn btn-danger tags">#NPM</span>
+		</section>
+		<section class="bio m20">
+			<p class="tj text-secondary">IT Engineer by a degree and Software Engineer by a passion, always eager to build innovative programs that enhances ones life. Experienced web developer, well-versed in technology and writing code to develop systems that are reliable, secured and user friendly. Strong collaborator with capacity to lead the team and utilizing next-gen technology to improve functionality of legacy applications.</p>
+		</section>
+		<section class="skills m20">
+			<h1 class="ff text-primary">Skills</h1>
+			<div class="row justify-content-between text-secondary">
+				<div class="col-md-6 p-3">
+					<ul>
+						<li>PHP, JavaScript, JAVA</li>
+						<li>LARAVEL, Wordpress, Spring MVC, React JS</li>
+						<li>MySQL, Oracle(Basic)</li>
+						<li>GIT, Tortoise SVN</li>
+						<li>HTML, CSS, BOOTSTRAP</li>
+					</ul>
+				</div>
+				<div class="col-md-6 p-3">
+					<ul>
+						<li>Can work with Ajax, JQuery, C, C++, Rest API, ReactJS, jQuery, JSP</li>
+						<li>Knowledge on Object Oriented Programming, Data Structure and Algorithm, Software life- cycle and RDBMS</li>
+						<li>Trained on MATLAB</li>
+					</ul>
+				</div>
 			</div>
-			<div class="Projects text-center" id="Projects">
-				<span class="btn btn-danger tags">Store Management Software</span>
-				<span class="btn btn-danger tags">Livestock Management Software</span><br>
-				<span class="btn btn-danger tags">Account Software</span>
-				<span class="btn btn-danger tags">CMS</span>
-				<span class="btn btn-danger tags">Progress Reporting System</span><br>
-				<span class="btn btn-danger tags">Information Tracking System</span>
-				<span class="btn btn-danger tags">Project Planning System</span><br>
-				<span class="btn btn-danger tags">Different Dynamic Websites </span>
+		</section>
+		
+		<section class="experience m20">
+			<h1 class="ff text-primary">Experience</h1>
+			<div class="row px-4 text-secondary">
+				<div class="col-md-12 p-3">
+					<h6>2020, APR-PRESENT</h6>
+					<h3 class="ff"><span class="text-info">Full Stack Developer </span>/ Worldlink Parijat, Basundhara</h3>
+					<p class="tj">As a full stack developer, I am involved in the entire process of software development life cycle. I mostly handle the logical part of the web applications at Parijat. Moreover, I am also responsible for seamless integration of the back-end and front-end. I also design database schema and REST API</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>2019, MAR – 2020, APR</h6>
+					<h3 class="ff"><span class="text-info">PHP Developer </span>/ Himalayan IT, Baneshwor</h3>
+					<p class="tj">As a PHP web developer my task was to write, tests and maintain the web applications. They were mostly enterprise application like store management system, information tracking system, account management system etc.</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>2018, DEC – 2019, MAR</h6>
+					<h3 class="ff"><span class="text-info">PHP Intern </span>/ Himalayan IT, Baneshwor</h3>
+					<p class="tj">As an intern my job was to design user interface and work on minor features, perform manual testing and to prepare documentation.</p>
+				</div>
 			</div>
-			<div class="About text-center" id="About">
-				I am an IT engineer based in Kathmandu Nepal. I am currently working as a full stack developer
-				at Worldlink Parijat, Kathmandu.
+		</section>
+		<section class="education m20">
+			<h1 class="ff text-primary">Education</h1>
+			<div class="row px-4 text-secondary">
+				<div class="col-md-12 p-3">
+					<h6>2015/16-2019/20</h6>
+					<h3 class="ff"><span class="text-info">BE-IT </span>/ Cosmos College of Technology, Lalitpur</h3>
+					<p class="tj">Passed with 3+ GPA</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>2013-2015</h6>
+					<h3 class="ff"><span class="text-info">+2, Computer Science </span>/ Nepal Mega College, Babarmahal</h3>
+					<p class="tj">Passed with First Division (68% on aggregate)</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>2012</h6>
+					<h3 class="ff"><span class="text-info">SLC </span>/ Mahendra Ma. Vi., Achham</h3>
+					<p class="tj">Passed with First Division (75%)</p>
+				</div>
 			</div>
-		</div>
-
+		</section>
+		<section class="certifications m20">
+			<h1 class="ff text-primary">Activities and Certifications</h1>
+			<div class="row px-4 text-secondary">
+				<div class="col-md-12 p-3">
+					<h6>OCT 8 2017</h6>
+					<h3 class="ff"><span class="text-info">Certificate of Completion (2.5 hours of blogging course) </span></h3>
+					<p class="tj">Issuing authority: OMG Mastermind and Udemy</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>MAR 2017</h6>
+					<h3 class="ff"><span class="text-info">Certificate of Excellence (MATLAB Design Competition) - Third Position</span></h3>
+					<p class="tj">Issuing authority: Cosmos College of Management and Technology and RAIT Pvt. Ltd.</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>FEB 2017-MAR 2017</h6>
+					<h3 class="ff"><span class="text-info">Basic MATLAB Training</span></h3>
+					<p class="tj">Issuing authority: Cosmos College of Management and Technology and RAIT Pvt. Ltd.</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h6>SEP 2013</h6>
+					<h3 class="ff"><span class="text-info">Certificate of Proficiency in Information Systems Management</span></h3>
+					<p class="tj">Issuing authority: Aptech Computer Education</p>
+				</div>
+			</div>
+		</section>
+		<section class="projects m20">
+			<h1 class="ff text-primary">Projects Done</h1>
+			<div class="row px-4 text-secondary">
+				<div class="col-md-12 p-3">
+					<h3 class="ff"><span class="text-info">Design Proofing App </span></h3>
+					<p class="tj">Web application to proof UI/UX in an easy way.</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h3 class="ff"><span class="text-info">Attendance System</span></h3>
+					<p class="tj">In house attendance management system.</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h3 class="ff"><span class="text-info">A Marketplace</span></h3>
+					<p class="tj">Web application to sell and buy services.</p>
+				</div>
+				<div class="col-md-12 p-3">
+					<h3 class="ff"><span class="text-info">Content Management Systems and dynamic websites</span></h3>
+					<p class="tj">Developed standalone enterprisse web applications like Store Management System, Livestock Management System, Information/Progress Reporting System to several dynamic websites.</p>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="text-center">
+			<p class="text-info">with <i class="fa fa-heart"></i></p>
+		</footer>
 	</div>
-	<footer class="text-center">
-		<p>with <i class="fa fa-heart"></i></p>
-	</footer>
 	<!-- Scripts -->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script>
 		$(document).ready(function () {
-
 			$(function () {
 				$('[data-toggle="tooltip"]').tooltip()
 			});
-			$('.Skills').show();
-			$('.Projects').hide();
-			$('.About').hide();
-
-			$('#Skills').click(function () {
-				$(this).addClass("active");
-				$('.Skills').show();
-				$('#Projects').removeClass("active");
-				$('.Projects').hide();
-				$('#About').removeClass("active");
-				$('.About').hide();
-			})
-			$('#Projects').click(function () {
-				$('#Skills').removeClass("active");
-				$('.Skills').hide();
-				$(this).addClass("active");
-				$('.Projects').show();
-				$('#About').removeClass("active");
-				$('.About').hide();
-			})
-			$('#About').click(function () {
-				$('#Skills').removeClass("active");
-				$('.Skills').hide();
-				$('#Projects').removeClass("active");
-				$('.Projects').hide();
-				$(this).addClass("active");
-				$('.About').show();
-			})
 		});
 	</script>
 </body>
